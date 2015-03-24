@@ -1,5 +1,7 @@
 $(call inherit-product, device/lge/d855/full_d855.mk)
 
+include device/lge/d855/sm.mk
+
 # Inherit some common SR stuff.
 $(call inherit-product, vendor/spirit/config/common_phone.mk)
 
